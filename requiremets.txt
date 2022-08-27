@@ -1,0 +1,13 @@
+json
+sqlite3
+base64
+tkinter 
+webbrowser
+win32crypt
+shutil
+PySimpleGUI 
+re
+time
+requests
+discord
+discord-webhook
