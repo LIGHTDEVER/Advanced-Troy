@@ -5,4 +5,4 @@ Webhook_URL = "Webhook Here"
 pip install -r requirements.txt
 
 
-# This is for educational purposes, if you uses it for crimes, I don't care 
+# This is for educational purposes
