@@ -5,5 +5,5 @@ Webhook_URL = "Webhook Here"
 pip install -r requirements.txt
 
 
-# This is for educational purposes
-# I don't Care What you do with this Python Code
+This is for educational purposes
+I'm not responsible what you do with this code
